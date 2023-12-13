@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top" data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">OKTO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Ana Sayfa</a>
+                    <a class="nav-link" href="#">Hakkımızda</a>
+                    <a class="nav-link" href="#">Ürünler</a>
+                    <a class="nav-link" href="#">İletişim</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- nav -->
+
+    <div class="container-fluid">
+        <div class="row p-5 bg-dark align-items-center">
+            <div class="col-sm-4 bg-dark text-light">
+                <!-- Corousel İnfo -->
+                <div id="octoinfo" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#octoinfo" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#octoinfo" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#octoinfo" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <h2 class="text-center">Vizyonumuz</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita consequuntur itaque
+                                deleniti distinctio ipsa impedit, facilis libero mollitia quasi ipsum!</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, ratione
+                                inventore.
+                                Commodi voluptates accusantium culpa velit eum, aut unde repellat nemo qui, non aliquid
+                                totam hic aperiam</p>
+                        </div>
+                        <div class="carousel-item">
+                            <h2 class="text-center">Misyonumuz</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita consequuntur itaque
+                                deleniti distinctio ipsa impedit, facilis libero mollitia quasi ipsum!</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, ratione
+                                inventore.
+                                Commodi voluptates accusantium culpa velit eum, aut unde repellat nemo qui, non aliquid
+                                totam hic aperiam</p>
+                        </div>
+                        <div class="carousel-item">
+                            <h2 class="text-center">İletişim</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita consequuntur itaque
+                                deleniti distinctio ipsa impedit, facilis libero mollitia quasi ipsum!</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, ratione
+                                inventore.
+                                Commodi voluptates accusantium culpa velit eum, aut unde repellat nemo qui, non aliquid
+                                totam hic aperiam</p>
+                        </div>
+                    </div>
+                    </button>
+                </div>
+                <!-- Corousel İnfo -->
+            </div>
+            <div class="col-sm-8 bg-dark">
+                <!-- carousel-img -->
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://picsum.photos/id/27/1200/350" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://picsum.photos/id/23/1200/350" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://picsum.photos/id/37/1200/350" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://picsum.photos/id/100/1200/350" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <!-- carousel-img -->
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Hero Info -->
+        <div class="row justify-content-center my-5 rounded p-5 border shadow">
+            <div class="col-sm-8 text-center">
+                <h1 class="display-5">Octo-Sizi Geleceğe Taşır.</h1>
+                <p class="lead">Lorem ipsum <mark>Lorem, ipsum.</mark> sit amet consectetur adipisicing elit. Cum,
+                    tempore.</p>
+                <p class="lead">Laboriosam asperiores esse quia soluta ratione vero consectetur aut. Perspiciatis.</p>
+                <p class="lead">Sed dolorum sequi id quae similique aut delectus? Sunt, ad!</p>
+            </div>
+        </div>
+        <!-- Hero Info -->
+        <!-- cards -->
+        <div class="row">
+            <div class="col-sm-7">
+                <div class="card mb-5 shadow">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="https://picsum.photos/id/100/400/600" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Kedi</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <div class="d-grid gap-2">
+                                    <button class="btn btn-outline-primary" type="button">İncele</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-5">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card shadow">
+                            <img src="https://picsum.photos/id/200/600/400" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of
+                                    the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card shadow">
+                            <img src="https://picsum.photos/id/400/600/400" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of
+                                    the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- aside ve content -->
+        <div class="row">
+            <aside class="col-sm-3 sticky-top" style="height:calc(100vh - 70px); top:70px" data-bs-theme="dark">
+
+
+
+
+                <div class="accordion shadow" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Accordion Item #1
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the first item's accordion body.</strong> It is shown by default, until
+                                the collapse plugin adds the appropriate classes that we use to style each element.
+                                These classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default
+                                variables. It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Accordion Item #2
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                until the collapse plugin adds the appropriate classes that we use to style each
+                                element. These classes control the overall appearance, as well as the showing and hiding
+                                via CSS transitions. You can modify any of this with custom CSS or overriding our
+                                default variables. It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Accordion Item #3
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="list-group">
+                                    <a href="#" class="list-group-item list-group-item-action">Bilgiler</a>
+                                    <a href="#" class="list-group-item list-group-item-action">Ürünler</a>
+                                    <a href="#" class="list-group-item list-group-item-action">Makaleler</a>
+                                    <a href="#" class="list-group-item list-group-item-action">Görseller</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </aside>
+            <section class="col-sm-9 ">
+                <!-- article*5>h2>{Makale $}^p*3>lorem20 -->
+                <article class="card p-3 mb-3 shadow">
+                    <img src="https://picsum.photos/id/400/600/240" class="w-100 mb-3 p-3 img-thumbnail" alt="">
+                    <h2>Makale 1</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non tempore quaerat incidunt, dolor
+                        expedita quisquam eaque praesentium porro ad fuga!</p>
+                    <p>Illo earum, omnis aut tenetur doloremque veniam incidunt iste cum sed rem fugiat. Autem corporis
+                        commodi sunt officia earum culpa.</p>
+                    <p>Perferendis nemo necessitatibus enim possimus, consequatur vel quod sequi minus, harum officiis
+                        fugit asperiores omnis reiciendis sit delectus corporis nesciunt.</p>
+                </article>
+                <article class="card p-3 mb-3 shadow">
+                    <h2>Makale 2</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est soluta fugit pariatur aspernatur
+                        expedita. Voluptates sequi hic necessitatibus iusto animi!</p>
+                    <p>Animi eum quis mollitia rem, sapiente ad maxime, voluptatibus deleniti dolorum reiciendis fugiat
+                        nulla, necessitatibus atque delectus excepturi cum ratione!</p>
+                    <p>Voluptate porro, aliquid cumque nesciunt minima mollitia maxime, aliquam cupiditate doloremque,
+                        rerum blanditiis quam nulla odio iste atque obcaecati recusandae.</p>
+                </article>
+                <article class="card p-3 mb-3 shadow">
+                    <h2>Makale 3</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad distinctio odit iure ratione quo,
+                        dignissimos maxime eius assumenda tenetur sed.</p>
+                    <p>Labore, rerum officia laborum sed explicabo temporibus sit culpa voluptatem consectetur?
+                        Consequatur in delectus amet voluptatum, tenetur officia quidem qui.</p>
+                    <p>Nemo, harum consequatur, illum ex culpa vel animi, odio sequi autem fuga atque cupiditate at?
+                        Libero quo quod repellendus animi.</p>
+                </article>
+                <article class="card p-3 mb-3 shadow">
+                    <h2>Makale 4</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet accusantium nesciunt, placeat magni
+                        architecto cupiditate reiciendis eum illo ratione! Pariatur.</p>
+                    <p>Vero officiis, est in provident consequuntur et odit id deserunt esse illo mollitia, assumenda
+                        perferendis quas impedit quia alias harum!</p>
+                    <p>Corporis quas ipsum saepe quisquam. Reiciendis, sed saepe incidunt quidem quos eos sequi
+                        laboriosam iure eius itaque dignissimos totam tempore!</p>
+                </article>
+                <article class="card p-3 mb-3 shadow">
+                    <h2>Makale 5</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi animi repudiandae eum laborum
+                        labore nesciunt numquam recusandae rem quam ratione.</p>
+                    <p>Quaerat cumque eos voluptate sequi, amet iste odit soluta expedita veritatis dolore quidem
+                        reprehenderit sed non tenetur adipisci corporis asperiores!</p>
+                    <p>Beatae, odio harum enim ipsam nemo nisi saepe est quisquam nulla laboriosam omnis nihil, deleniti
+                        sint animi fuga? Nobis, a.</p>
+                </article>
+            </section>
+        </div>
+        <!-- aside ve content -->
+    </div>
+    <!-- cards -->
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

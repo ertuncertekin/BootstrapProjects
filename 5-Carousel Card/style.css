@@ -1,0 +1,32 @@
+.cards {
+    background-color: beige;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 20px 20px 20px;
+}
+
+.cards img:hover {
+    opacity: 0.7;
+}
+
+
+.carousel-indicators>.color:nth-child(1) {
+    background-color: blue;
+}
+
+.carousel-indicators>.color:nth-child(2) {
+    background-color: white;
+}
+
+.carousel-indicators>.color:nth-child(3) {
+    background-color: red;
+
+}
+
+.little {
+    border: none;
+    border-radius: 50%;
+}
